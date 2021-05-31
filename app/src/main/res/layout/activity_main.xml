@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#C1E1D6"
+    tools:context=".MainActivity"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Welcome to MyCharts!"
+        android:textSize="24sp"
+       android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/btnBar"
+        android:layout_width="202dp"
+        android:layout_height="74dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="Bar Chart"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btnPie"
+        android:layout_width="202dp"
+        android:layout_height="74dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="Pie Chart"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/btnLine"
+        android:layout_width="202dp"
+        android:layout_height="74dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="Line Chart"
+        android:textColor="@color/black" />
+
+</LinearLayout>
